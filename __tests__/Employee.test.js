@@ -2,8 +2,8 @@
 const Employee = require("../lib/Employee");
 // creates employee object
 test("Can instantiate Employee instance", () => {
-  const e = new Employee();
-  expect(typeof e).toBe("object");
+  const employee = new Employee();
+  expect(typeof eemployee).toBe("object");
 });
 
 //get id from getId()
@@ -19,6 +19,7 @@ test("gets employee ID", () => {
 
   expect(employee.getId()).toEqual(expect.any(Number));
 });
+//for email
 test("gets employee email", () => {
   const employee = new Employee("Favour", 60, "Favouradesiyan2@gmail.com");
 

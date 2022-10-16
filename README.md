@@ -24,6 +24,11 @@ use inquirer from your command line to answer questions abour the project you ar
 ## Usage:
 
 use inquirer from your command line to answer questions abour the project you are workking on.
+<img src="assets/images/live-view.png">
+
+## Walkthrough video
+
+https://drive.google.com/file/d/1IYqgntJqyYp7WzRUV34FR1ycASmKi74S/view
 
 ## License:
 
@@ -31,11 +36,11 @@ MIT
 
 ## Contribution:
 
-undefined
+Contributors should read the installation section.
 
 ## Testing:
 
-undefined
+Run `npm test` to run Jest for tests on constructors.
 
 ## Additional Info:
 

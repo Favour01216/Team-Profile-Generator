@@ -1,14 +1,15 @@
 //Employee constuctor
 const Engineer = require("../lib/Engineer");
 // creating engineer object
-test("Can set GitHUb account via constructor", () => {
-  const engineer = new Engineer(
-    "Drinkwater",
-    6,
-    "yuptest@gmail.com",
-    "Drinkwater06"
+test("Can create a github.", () => {
+  const testGithub = "JamesLJenks";
+  const employeeInstance = new Engineer(
+    "James",
+    2,
+    "jamesljenks@gmail.com",
+    testGithub
   );
-  expect(engineer.github).toBe(testValue);
+  expect(employeeInstance.github).toBe(testGithub);
 });
 // gets github info
 test("gets engineer github value", () => {
